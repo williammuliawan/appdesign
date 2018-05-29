@@ -26,13 +26,16 @@ class Main {
     }*/
     //Test timer, not functional
 
-    timer.schedule(new TimerTask(){
-      @Override
-      public void run(){
-        System.out.println(totalTime);
-      }
-    },2*60*1000);
-    
+    /*timer.scheduleAtFixedRate(new TimerTask() {
+    @Override
+    public void run() {
+      System.out.println(totalTime);
+    }
+  }, 1000, 1000);*/
+//other timer not working in repl.it
+
+    //TimeUnit.SECONDS.Sleep(1);
+    //Drifts after a while; not reliable
     
 
 
