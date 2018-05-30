@@ -32,7 +32,7 @@ class Main {
       System.out.println(totalTime);
     }
   }, 1000, 1000);*/
-//other timer not working in repl.it
+//other timer not working in repl.it, try later in other platform
 
     //TimeUnit.SECONDS.Sleep(1);
     //Drifts after a while; not reliable
@@ -40,7 +40,5 @@ class Main {
 
 
   }
-
-
 
 }
