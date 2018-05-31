@@ -2,7 +2,12 @@ import java.util.Scanner;
 import java.util.Timer;
 
 class Main {
-
+public abstract void fillArc(int x,
+           int y,
+           int width,
+           int height,
+           int startAngle,
+           int arcAngle);
 
   public static void main(String[] args) {
     Timer timer = new Timer();
@@ -40,6 +45,7 @@ class Main {
     @Override
     public void run() {
       System.out.println(totalTime/60 + " minutes" + totalTime + " seconds");
+      drawArc(20,20,200,200,0,90)
       if(totalTime<=0){
         Timertask.shutdown();
       }
